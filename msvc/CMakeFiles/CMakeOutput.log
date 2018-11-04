@@ -1,0 +1,508 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:30 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\2.8.12.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/2.8.12.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:31 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\2.8.12.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.09
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/2.8.12.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3960750246.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:33 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3960750246.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3960750246.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3960750246.dir\Debug\cmTryCom.F333824B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3960750246.dir\Debug\cmTryCom.F333824B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3960750246.dir\Debug\\" /Fd"cmTryCompileExec3960750246.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3960750246.dir\Debug\\" /Fd"cmTryCompileExec3960750246.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3960750246.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3960750246.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3960750246.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3960750246.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3960750246.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3960750246.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3960750246.dir\Debug\cmTryCom.F333824B.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3960750246.dir\Debug\cmTryCom.F333824B.tlog\cmTryCompileExec3960750246.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3960750246.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.33
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1954476577.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:35 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1954476577.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1954476577.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1954476577.dir\Debug\cmTryCom.BC7FA72B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1954476577.dir\Debug\cmTryCom.BC7FA72B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1954476577.dir\Debug\\" /Fd"cmTryCompileExec1954476577.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1954476577.dir\Debug\\" /Fd"cmTryCompileExec1954476577.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1954476577.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1954476577.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1954476577.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1954476577.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec1954476577.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1954476577.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1954476577.dir\Debug\cmTryCom.BC7FA72B.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1954476577.dir\Debug\cmTryCom.BC7FA72B.tlog\cmTryCompileExec1954476577.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1954476577.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3410623591.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:36 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3410623591.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3410623591.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3410623591.dir\Debug\cmTryCom.F5E94727.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3410623591.dir\Debug\cmTryCom.F5E94727.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3410623591.dir\Debug\\" /Fd"cmTryCompileExec3410623591.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3410623591.dir\Debug\\" /Fd"cmTryCompileExec3410623591.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3410623591.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3410623591.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3410623591.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3410623591.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec3410623591.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3410623591.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3410623591.dir\Debug\cmTryCom.F5E94727.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3410623591.dir\Debug\cmTryCom.F5E94727.tlog\cmTryCompileExec3410623591.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3410623591.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4226717227.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:37 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4226717227.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4226717227.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4226717227.dir\Debug\cmTryCom.557DD3A0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4226717227.dir\Debug\cmTryCom.557DD3A0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4226717227.dir\Debug\\" /Fd"cmTryCompileExec4226717227.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec4226717227.dir\Debug\\" /Fd"cmTryCompileExec4226717227.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4226717227.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4226717227.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4226717227.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4226717227.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec4226717227.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4226717227.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4226717227.dir\Debug\cmTryCom.557DD3A0.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4226717227.dir\Debug\cmTryCom.557DD3A0.tlog\cmTryCompileExec4226717227.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4226717227.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2555842521.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:39 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2555842521.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2555842521.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2555842521.dir\Debug\cmTryCom.89D81C3D.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2555842521.dir\Debug\cmTryCom.89D81C3D.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2555842521.dir\Debug\\" /Fd"cmTryCompileExec2555842521.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2555842521.dir\Debug\\" /Fd"cmTryCompileExec2555842521.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2555842521.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2555842521.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2555842521.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2555842521.dir\Debug\src.obj
+  cmTryCompileExec2555842521.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2555842521.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2555842521.dir\Debug\cmTryCom.89D81C3D.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2555842521.dir\Debug\cmTryCom.89D81C3D.tlog\cmTryCompileExec2555842521.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2555842521.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.04
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec4140840799.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:40 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4140840799.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4140840799.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4140840799.dir\Debug\cmTryCom.91BBF59E.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4140840799.dir\Debug\cmTryCom.91BBF59E.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4140840799.dir\Debug\\" /Fd"cmTryCompileExec4140840799.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec4140840799.dir\Debug\\" /Fd"cmTryCompileExec4140840799.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue src.cxx
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4140840799.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4140840799.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4140840799.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4140840799.dir\Debug\src.obj
+  cmTryCompileExec4140840799.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4140840799.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4140840799.dir\Debug\cmTryCom.91BBF59E.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4140840799.dir\Debug\cmTryCom.91BBF59E.tlog\cmTryCompileExec4140840799.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec4140840799.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if files stdarg.h exist passed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2626334177.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:44 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2626334177.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2626334177.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2626334177.dir\Debug\cmTryCom.F42D43B2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2626334177.dir\Debug\cmTryCom.F42D43B2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2626334177.dir\Debug\\" /Fd"cmTryCompileExec2626334177.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2626334177.dir\Debug\\" /Fd"cmTryCompileExec2626334177.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2626334177.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2626334177.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2626334177.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2626334177.dir\Debug\CheckIncludeFiles.obj
+  cmTryCompileExec2626334177.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2626334177.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2626334177.dir\Debug\cmTryCom.F42D43B2.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2626334177.dir\Debug\cmTryCom.F42D43B2.tlog\cmTryCompileExec2626334177.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2626334177.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1508621820.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:45 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1508621820.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1508621820.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1508621820.dir\Debug\cmTryCom.736D414B.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1508621820.dir\Debug\cmTryCom.736D414B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec1508621820.dir\Debug\\" /Fd"cmTryCompileExec1508621820.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec1508621820.dir\Debug\\" /Fd"cmTryCompileExec1508621820.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1508621820.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1508621820.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1508621820.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1508621820.dir\Debug\CheckIncludeFiles.obj
+  cmTryCompileExec1508621820.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1508621820.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1508621820.dir\Debug\cmTryCom.736D414B.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1508621820.dir\Debug\cmTryCom.736D414B.tlog\cmTryCompileExec1508621820.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1508621820.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2081297606.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:47 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2081297606.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2081297606.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2081297606.dir\Debug\cmTryCom.60BF4D14.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2081297606.dir\Debug\cmTryCom.60BF4D14.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2081297606.dir\Debug\\" /Fd"cmTryCompileExec2081297606.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec2081297606.dir\Debug\\" /Fd"cmTryCompileExec2081297606.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2081297606.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081297606.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2081297606.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2081297606.dir\Debug\CheckIncludeFiles.obj
+  cmTryCompileExec2081297606.vcxproj -> K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2081297606.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2081297606.dir\Debug\cmTryCom.60BF4D14.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2081297606.dir\Debug\cmTryCom.60BF4D14.tlog\cmTryCompileExec2081297606.lastbuildstate".
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec2081297606.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+

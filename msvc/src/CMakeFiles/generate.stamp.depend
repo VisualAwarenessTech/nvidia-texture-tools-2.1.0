@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+K:/Development/op3d_active/nvidia-texture-tools-2.1.0/src/CMakeLists.txt
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindOpenMP.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+K:/Development/op3d_active/nvidia-texture-tools-2.1.0/src/nvconfig.h.in

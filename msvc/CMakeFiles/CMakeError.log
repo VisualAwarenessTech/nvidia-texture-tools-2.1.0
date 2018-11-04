@@ -1,0 +1,196 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3624906919.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:42 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3624906919.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3624906919.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3624906919.dir\Debug\cmTryCom.2E2FD2E9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3624906919.dir\Debug\cmTryCom.2E2FD2E9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3624906919.dir\Debug\\" /Fd"cmTryCompileExec3624906919.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3624906919.dir\Debug\\" /Fd"cmTryCompileExec3624906919.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3624906919.vcxproj]
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3624906919.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3624906919.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3624906919.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.59
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3209495258.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:43 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3209495258.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3209495258.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3209495258.dir\Debug\cmTryCom.5BF1BA46.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3209495258.dir\Debug\cmTryCom.5BF1BA46.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3209495258.dir\Debug\\" /Fd"cmTryCompileExec3209495258.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3209495258.dir\Debug\\" /Fd"cmTryCompileExec3209495258.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3209495258.vcxproj]
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3209495258.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3209495258.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3209495258.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.59
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(){return 0;}
+
+Determining if files execinfo.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec3561782775.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:46 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3561782775.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3561782775.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3561782775.dir\Debug\cmTryCom.AC6C0E13.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3561782775.dir\Debug\cmTryCom.AC6C0E13.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3561782775.dir\Debug\\" /Fd"cmTryCompileExec3561782775.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec3561782775.dir\Debug\\" /Fd"cmTryCompileExec3561782775.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'execinfo.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3561782775.vcxproj]
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3561782775.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3561782775.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'execinfo.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec3561782775.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.59
+
+Source:
+/* */
+#include <execinfo.h>
+
+
+int main(){return 0;}
+
+Determining if files dispatch/dispatch.h exist failed with the following output:
+Change Dir: K:/Development/op3d_active/nvidia-texture-tools-2.1.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec1903402111.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 11/4/2018 11:08:49 AM.
+The target "_ConvertPdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" does not exist in the project, and will be ignored.
+The target "_CollectPdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" does not exist in the project, and will be ignored.
+The target "_CollectMdbFiles" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" does not exist in the project, and will be ignored.
+The target "_CopyMdbFiles" listed in an AfterTargets attribute at "C:\Program Files (x86)\MSBuild\12.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" does not exist in the project, and will be ignored.
+Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1903402111.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1903402111.dir\Debug\".
+  Creating directory "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1903402111.dir\Debug\cmTryCom.51DAA7EA.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1903402111.dir\Debug\cmTryCom.51DAA7EA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec1903402111.dir\Debug\\" /Fd"cmTryCompileExec1903402111.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec1903402111.dir\Debug\\" /Fd"cmTryCompileExec1903402111.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'dispatch/dispatch.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1903402111.vcxproj]
+Done Building Project "K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1903402111.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1903402111.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'dispatch/dispatch.h': No such file or directory [K:\Development\op3d_active\nvidia-texture-tools-2.1.0\msvc\CMakeFiles\CMakeTmp\cmTryCompileExec1903402111.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.56
+
+Source:
+/* */
+#include <dispatch/dispatch.h>
+
+
+int main(){return 0;}
+
